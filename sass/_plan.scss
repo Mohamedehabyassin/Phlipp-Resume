@@ -1,0 +1,36 @@
+    .item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 15px;
+        background-color: rgb(247, 243, 243);
+        h4 {
+            margin: 30px
+        }
+        h2 {
+            padding: 10px 50px;
+            font-size: 30px;
+            font-weight: 900;
+        }
+        p {
+            line-height: 2.3em;
+            text-align: center;
+            width: 100%;
+            font: {
+                weight: 400;
+                size: 20px;
+            }
+            border-bottom: 1px solid rgb(230, 226, 226);
+        }
+        .main {
+            @include circle(120px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-image: radial-gradient( rgb(180, 241, 236), rgb(60, 169, 202));
+            h4 {
+                font-size: 25px;
+            }
+        }
+    }

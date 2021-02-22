@@ -1,0 +1,8 @@
+@mixin circle($value) {
+    width: $value;
+    height: $value;
+    border-radius: $value;
+    // -webkit-border-radius: $value/2;
+    // -moz-border-radius: $value/2;
+    // border-radius: $value/2;
+}
